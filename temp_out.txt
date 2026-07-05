@@ -1,0 +1,212 @@
+df = pd.read_csv(f"{project_path}/generated_candidates_corrected.csv")
+
+    "uniprotkb_reviewed_true_AND_petase_AND_2025_10_23.fasta",
+
+    "uniprotkb_reviewed_true_AND_cutinase_OR_2025_10_23 (1).fasta",
+
+    "unreviewed_bacteria_67k.fasta.gz"
+
+    "uniprotkb_reviewed_true_AND_petase_AND_2025_10_23.fasta",
+
+    "uniprotkb_reviewed_true_AND_cutinase_OR_2025_10_23 (1).fasta"
+
+silver_file = "unreviewed_bacteria_67k.fasta.gz"
+
+output_filename = "final_training_dataset.csv"
+
+csv_path = os.path.join(project_path, "final_training_dataset.csv")
+
+    "uniprotkb_reviewed_true_AND_petase_AND_2025_10_23.fasta",
+
+    "uniprotkb_reviewed_true_AND_cutinase_OR_2025_10_23 (1).fasta"
+
+df = pd.read_csv(os.path.join(project_path, "final_training_dataset.csv"))
+
+csv_path = os.path.join(project_path, "final_training_dataset.csv")
+
+csv_file = os.path.join(project_path, "final_training_dataset.csv")
+
+⛔ DO NOT RUN — Old draft generation cell. Saves to wrong file (batch1.csv). Kept only to show first attempt to teacher.
+
+output_file = f"{project_path}/generated_candidates_batch1.csv"
+
+⛔ DO NOT RUN — This will overwrite generated_candidates_corrected.csv and destroy Synzyme_v2_025, v2_021, and v2_031. Sequences already saved.
+
+output_file = f"{project_path}/generated_candidates_corrected.csv"
+
+df = pd.read_csv(f"{project_path}/generated_candidates_corrected.csv")
+
+print("  ✅ All 3 sourced from generated_candidates_corrected.csv")
+
+    <div style="font-size:14px; opacity:0.85;">All sequences taken directly from generated_candidates_corrected.csv</div>
+
+#  Source    : generated_candidates_corrected.csv
+
+#  Source    : generated_candidates_corrected.csv
+
+#  Source    : generated_candidates_corrected.csv
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+report_file = f"{project_path}/phase4_structural_report.csv"
+
+    save_path = f"{pdb_folder}/{design_id}.pdb"
+
+report_file = f"{project_path}/phase4_structural_report.csv"      # Has Scores
+
+sequence_file = f"{project_path}/generated_candidates_corrected.csv" # Has Sequences
+
+    ligand_path = f"{docking_folder}/{ligand_name}.pdb"
+
+bhet_file = f"{docking_folder}/BHET_Plastic_Model.pdb"
+
+        print(f"   ✅ File 'BHET_Plastic_Model.pdb' EXISTS.")
+
+                print("   ✅ RE-CREATED: BHET_Plastic_Model.pdb")
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+    print("✅ SUCCESS: Found 'generated_candidates_corrected.csv'")
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb = f"{pdb_folder}/{candidate_id}.pdb"
+
+ligand_pdb = f"{docking_folder}/BHET_Plastic_Model.pdb"
+
+        raise FileNotFoundError("Could not find or regenerate BHET_Plastic_Model.pdb")
+
+enzyme_pdbqt = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_docked.pdbqt"
+
+enzyme_pdb = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb   = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+csv_file = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb   = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+ligand_pdbqt = f"{docking_folder}/BHET.pdbqt"
+
+wt_pdb = f"{pdb_folder}/{wt_name}.pdb"
+
+wt_pdbqt = f"{docking_folder}/{wt_name}.pdbqt"
+
+wt_output = f"{docking_folder}/{wt_name}_docked.pdbqt"
+
+csv_file       = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb    = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt  = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt  = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+csv_file       = f"{project_path}/generated_candidates_corrected.csv"
+
+enzyme_pdb    = f"{pdb_folder}/{candidate_id}.pdb"
+
+enzyme_pdbqt  = f"{docking_folder}/{candidate_id}.pdbqt"
+
+ligand_pdbqt  = f"{docking_folder}/BHET.pdbqt"
+
+output_docked = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+enzyme_file = f"{project_path}/structures_pdb/{candidate_id}.pdb"
+
+docked_file = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+enzyme_file  = f"{project_path}/structures_pdb/{candidate_id}.pdb"
+
+docked_file  = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+enzyme_file  = f"{project_path}/structures_pdb/{candidate_id}.pdb"
+
+docked_file  = f"{docking_folder}/{candidate_id}_targeted.pdbqt"
+
+    f"{project_path}/generated_candidates_corrected.csv",
+
+    f"{project_path}/phase4_structural_report.csv",
+
+print("\n👉 Go to your Google Drive -> Synzyme_Genesis folder -> Right Click 'Synzyme_Final_Results.zip' -> Download.")
+# WildType_IsPETase.pdb already exists in structures_pdb/
+
+wt_pdb_file  = f"{pdb_folder}/{wt_name}.pdb"
+
+wt_dock_file = f"{docking_folder}/{wt_name}_docked.pdbqt"
+
+        "dock_suffix": "_docked.pdbqt",
+
+        "dock_suffix": "_targeted.pdbqt",
+
+        "dock_suffix": "_targeted.pdbqt",
+
+        "dock_suffix": "_targeted.pdbqt",
+
+    pdb_f  = f"{pdb_folder}/{pid}.pdb"
+
+csv_file       = f"{project_path}/generated_candidates_corrected.csv"
+
+    print("CSV not found. Make sure generated_candidates_corrected.csv exists.")
+
+    pdb_f  = f"{pdb_folder}/{cand_id}.pdb"
+
+    dock_f = f"{docking_folder}/{cand_id}_targeted.pdbqt"
+
+csv_file     = f"{project_path}/generated_candidates_corrected.csv"
+
+    f"{project_path}/generated_candidates_corrected.csv",
+
+    f"{project_path}/phase4_structural_report.csv",
+
+    f"{project_path}/final_training_dataset.csv",
+
+generated_candidates_corrected.csv  -- All AI-generated enzyme candidates
+
+phase4_structural_report.csv        -- Structural validation (pLDDT scores)
+
+final_training_dataset.csv          -- Cleaned training dataset (ESM-2 input)
+
+docking_simulation/                 -- AutoDock Vina docking results (.pdbqt)
+
+Online  : Drag any .pdb file to https://www.rcsb.org/3d-view
+
+print("  'Synzyme_Final_Results.zip' > Download")
+
+local_zip = "/content/Synzyme_Final_Results.zip"

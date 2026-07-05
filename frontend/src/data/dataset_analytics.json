@@ -1,0 +1,70 @@
+{
+  "totalSequences": 53,
+  "avgLength": 294.7,
+  "minLength": 212,
+  "maxLength": 398,
+  "taxonomy": [
+    {
+      "phylum": "Other/Unclassified",
+      "count": 17
+    },
+    {
+      "phylum": "Pseudomonadota",
+      "count": 10
+    },
+    {
+      "phylum": "Actinomycetota",
+      "count": 8
+    },
+    {
+      "phylum": "Ascomycota",
+      "count": 7
+    },
+    {
+      "phylum": "Bacillota",
+      "count": 5
+    },
+    {
+      "phylum": "Streptophyta",
+      "count": 3
+    },
+    {
+      "phylum": "Basidiomycota",
+      "count": 1
+    },
+    {
+      "phylum": "Crenarchaeota",
+      "count": 1
+    },
+    {
+      "phylum": "Mucoromycota",
+      "count": 1
+    }
+  ],
+  "lengthDistribution": [
+    {
+      "range": "< 250",
+      "count": 8
+    },
+    {
+      "range": "250-275",
+      "count": 12
+    },
+    {
+      "range": "275-300",
+      "count": 8
+    },
+    {
+      "range": "300-325",
+      "count": 15
+    },
+    {
+      "range": "325-350",
+      "count": 3
+    },
+    {
+      "range": "> 350",
+      "count": 7
+    }
+  ]
+}

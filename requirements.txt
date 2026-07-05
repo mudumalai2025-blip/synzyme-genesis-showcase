@@ -1,0 +1,18 @@
+# Core Scientific & Data Processing
+numpy>=1.22.4
+pandas>=1.5.3
+scipy>=1.10.1
+scikit-learn>=1.2.2
+
+# Machine Learning & Deep Learning (Bioinformatics models)
+torch>=2.0.0
+transformers>=4.28.0
+biopython>=1.81
+
+# Data Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.2
+
+# Jupyter Notebook Environment
+jupyterlab>=3.6.3
+ipywidgets>=8.0.6

@@ -1,0 +1,30 @@
+{
+  "model_name": "ESM-2 (fine-tuned-synzyme)",
+  "base_model": "esm2_t12_35M_UR50D",
+  "parameters": "35 Million",
+  "vocab_size": 33,
+  "hidden_size": 480,
+  "num_layers": 12,
+  "num_heads": 20,
+  "max_positions": 1026,
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "step": 1814,
+      "loss": 1.45,
+      "status": "completed"
+    },
+    {
+      "epoch": 2,
+      "step": 3628,
+      "loss": 0.88,
+      "status": "completed"
+    },
+    {
+      "epoch": 3,
+      "step": 5442,
+      "loss": 0.36,
+      "status": "completed"
+    }
+  ]
+}
