@@ -3,7 +3,7 @@ import os
 
 def process_config():
     root_dir = "C:\\Users\\Admin\\Downloads\\synzyme genesis"
-    config_path = os.path.join(root_dir, "final_synzyme_model", "config.json")
+    config_path = os.path.join(root_dir, "esm2-fine-tuned-synzyme", "config.json")
     
     # Default ESM-2 35M parameters (fine-tuned hydrolase configuration)
     specs = {

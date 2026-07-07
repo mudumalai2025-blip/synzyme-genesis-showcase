@@ -67,7 +67,7 @@ export default function Results() {
           Functional <span className="gradient-text">Validation Results</span>
         </h2>
         <p style={{ textAlign: 'center', color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto 4rem auto', fontSize: '1.1rem' }}>
-          From an initial pool of 1,250 candidates, 231 passed the structural validation threshold (pLDDT &gt;= 70). The top-performing candidates were then subjected to AutoDock Vina simulations against the PET monomer (BHET), resulting in 68 candidates outperforming the natural Wild-Type IsPETase baseline (-6.2 kcal/mol).
+          From your initial sequence candidate pool, the selected designs were subjected to ESMFold coordinate prediction. Top structural candidates were then validated with AutoDock Vina molecular docking calculations against the Bis(2-hydroxyethyl) terephthalate (BHET) substrate monomer.
         </p>
 
         {/* Searchable Database Table */}
@@ -109,7 +109,7 @@ export default function Results() {
                 {/* Baseline Row */}
                 <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)', backgroundColor: 'rgba(255,255,255,0.03)' }}>
                   <td style={{ padding: '1rem', fontWeight: 'bold' }}>Wild-Type (IsPETase)</td>
-                  <td style={{ padding: '1rem' }}>-6.200</td>
+                  <td style={{ padding: '1rem' }}>-5.385</td>
                   <td style={{ padding: '1rem' }}>92.0</td>
                   <td style={{ padding: '1rem' }}>0</td>
                   <td style={{ padding: '1rem' }}>100%</td>

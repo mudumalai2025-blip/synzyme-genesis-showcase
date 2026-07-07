@@ -3,8 +3,8 @@
   "base_model": "esm2_t12_35M_UR50D",
   "parameters": "35 Million",
   "vocab_size": 33,
-  "hidden_size": 480,
-  "num_layers": 12,
+  "hidden_size": 320,
+  "num_layers": 20,
   "num_heads": 20,
   "max_positions": 1026,
   "checkpoints": [
@@ -26,5 +26,6 @@
       "loss": 0.36,
       "status": "completed"
     }
-  ]
+  ],
+  "architecture": "EsmForMaskedLM"
 }

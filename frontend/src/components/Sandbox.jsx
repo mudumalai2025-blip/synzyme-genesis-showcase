@@ -9,23 +9,17 @@ export default function Sandbox() {
 
   const simulationSteps = [
     { text: "⚡ Initializing Synzyme Genesis Pipeline...", delay: 500 },
-    { text: "🤖 Loading ESM-2 35M Parameter Model (esm2_t12_35M_UR50D)...", delay: 800 },
-    { text: "📁 Importing fine-tuned weight tensors from final_synzyme_model...", delay: 600 },
-    { text: "🧬 Loading Wild-Type IsPETase template sequence (290 AA)...", delay: 700 },
-    { text: "🔮 Masking 15% of evolutionary positions for token sampling...", delay: 900 },
-    { text: "⚙️ Running Gibbs Sampling iteration (1/5)...", delay: 1000 },
-    { text: "⚙️ Running Gibbs Sampling iteration (2/5)...", delay: 800 },
-    { text: "⚙️ Running Gibbs Sampling iteration (3/5)...", delay: 800 },
-    { text: "⚙️ Running Gibbs Sampling iteration (4/5)...", delay: 800 },
-    { text: "⚙️ Running Gibbs Sampling iteration (5/5)...", delay: 800 },
-    { text: "✅ 1,250 novel sequence candidates generated successfully.", delay: 500 },
-    { text: "🚀 Sending coordinates to AlphaFold2 structural model...", delay: 900 },
-    { text: "📊 Evaluating pLDDT structural confidence scores...", delay: 1100 },
-    { text: "❌ 1,019 sequences discarded (pLDDT < 90)", delay: 600 },
-    { text: "✅ 231 sequences validated with high folding stability (pLDDT >= 90).", delay: 500 },
-    { text: "⚓ Initiating AutoDock Vina molecular docking screening...", delay: 1000 },
-    { text: "🎯 Docking BHET substrate into active cleft coordinates...", delay: 1200 },
-    { text: "🏆 Top Candidate Identified: Synzyme_v2_021 (ΔG: -8.200 kcal/mol, pLDDT: 93.0)", delay: 800 }
+    { text: "🤖 Loading fine-tuned ESM-2 35M model (esm2_t12_35M_UR50D) weights...", delay: 800 },
+    { text: "📁 Reading tokenizer configurations and vocab.txt...", delay: 600 },
+    { text: "🧬 Loading Wild-Type IsPETase seed template (290 AA)...", delay: 700 },
+    { text: "🔮 Predicting novel sequence designs from fine-tuned model...", delay: 900 },
+    { text: "✅ 50 sequence variants parsed successfully into generated_candidates_corrected.csv.", delay: 800 },
+    { text: "🚀 Folding candidates using ESMFold structural prediction...", delay: 900 },
+    { text: "📊 Evaluating folding stability (pLDDT scores)...", delay: 1100 },
+    { text: "✅ 40 stable structural coordinates compiled in phase4_structural_report.csv.", delay: 800 },
+    { text: "⚓ Initiating molecular docking (AutoDock Vina) for lead candidate complex...", delay: 1000 },
+    { text: "🎯 Docking BHET plastic monomer into active site of Synzyme_v2_021.pdb...", delay: 1200 },
+    { text: "🏆 Lead Variant Verified: Synzyme_v2_021 (ΔG: -5.464 kcal/mol, pLDDT: 93.0, 7 mutations)", delay: 800 }
   ];
 
   const candidateSequence = 
